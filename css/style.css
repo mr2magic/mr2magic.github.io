@@ -273,6 +273,14 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none;
 }
 
+/* The custom inline-flex rule above would otherwise override Bootstrap's
+   responsive hide and leave the hamburger visible next to the desktop nav. */
+@media (min-width: 768px) {
+  .navbar-apple .navbar-toggler {
+    display: none;
+  }
+}
+
 .navbar-apple .navbar-toggler span {
   font-size: 26px;
   line-height: 1;
