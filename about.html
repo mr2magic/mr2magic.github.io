@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Snuffy Rhino Productions</title>
+  <meta name="description" content="The story behind Snuffy Rhino Productions — iOS apps and books, made by Dan Horn.">
+  <link rel="icon" type="image/svg+xml" href="images/icons/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+  <nav class="navbar navbar-expand-md navbar-apple">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/icons/logo.svg" alt="" aria-hidden="true" class="navbar-logo" width="44" height="44">
+        Snuffy Rhino Productions
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span>&#9776;</span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="apps.html">Apps</a></li>
+          <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+  <header class="hero" style="padding-bottom: 32px;">
+    <div class="container">
+      <span class="eyebrow">About</span>
+      <h1 class="display-headline display-headline-sm">Four decades in.<br>Still building.</h1>
+      <div class="scroll-hint" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 9l6 6 6-6"/>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bio -->
+  <section class="section pt-0">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 reveal">
+          <div class="portrait-frame">
+            <img src="images/dan.jpg" alt="Dan Horn" class="w-100 d-block">
+          </div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <p class="body-large">
+            Dan Horn has spent four decades solving problems in technology — and he's very particular about which ones are worth solving.
+          </p>
+          <p class="mt-4">
+            His résumé spans Turner Broadcasting and CNN's digital infrastructure, an international disaster recovery initiative at DHL Globalmail, and field deployments across the British Virgin Islands, the UK, and Japan. He holds a US patent for his work on Narrow Band Traffic Control Units (US 20200059826). Along the way he's navigated payment gateways, PCI and HIPAA compliance, enterprise cloud migrations, and the full stack of problems that emerge when systems absolutely cannot go down.
+          </p>
+          <p>
+            These days that same instinct — find the thing that should exist and isn't done right yet — drives everything at Snuffy Rhino Productions. No big team, no growth hacks, no notifications begging for your attention. Just things made carefully, by hand, on purpose.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apps -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 reveal">
+          <span class="eyebrow">The Apps</span>
+          <h2 class="section-headline mb-5">Four problems.<br>Four solutions.</h2>
+
+          <div class="about-book-item mb-5">
+            <h3 class="about-book-title">Manuscan</h3>
+            <p class="about-book-series">iOS · Manuscript Analysis</p>
+            <p>Import any EPUB and Manuscan uses Claude AI to dissect your story at every level — acts, chapters, scenes, beats — then scores it across 15 continuity dimensions and hands you a full report. Health score 0–100. Export to Markdown, HTML, or Fountain.</p>
+            <video controls playsinline preload="metadata" class="w-100 mt-3 mb-3" aria-label="Manuscan demo reel">
+              <source src="videos/ManuscanDemoReel.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="text-secondary">Silent screen recording — no audio or narration.</p>
+            <a href="apps.html#manuscan" class="btn-apple">See the app</a>
+          </div>
+
+          <div class="about-book-item mb-5">
+            <h3 class="about-book-title">Ragion</h3>
+            <p class="about-book-series">iOS · RAG Document Q&amp;A</p>
+            <p>Build private knowledge bases from PDFs, EPUBs, spreadsheets, code files, and 16 other formats. Ask questions in plain language using Claude, ChatGPT, or a fully local Ollama model. Every answer cites the exact passage it came from. A sophisticated iOS implementation built on the open-source RAGFlow project.</p>
+            <a href="apps.html#ragion" class="btn-apple">See the app</a>
+          </div>
+
+          <div class="about-book-item mb-5">
+            <h3 class="about-book-title">Ingredient Getter</h3>
+            <p class="about-book-series">iOS · Recipe to Shopping List</p>
+            <p>Snap up to 10 recipe photos. Claude AI extracts every ingredient. A 700+ item lookup table organizes the whole list by aisle, matched to your store's layout. Merge multiple recipes, check off as you shop. All data stays on device.</p>
+            <a href="apps.html#ingredient-getter" class="btn-apple">See the app</a>
+          </div>
+
+          <div class="about-book-item">
+            <h3 class="about-book-title">Writers Wellspring</h3>
+            <p class="about-book-series">Web App · Story Analysis</p>
+            <p>Runs your manuscript through Claude AI to extract the complete narrative structure — acts down to individual beats — then surfaces continuity issues across character consistency, pacing, theme, and more. Export the full analysis as Markdown.</p>
+            <a href="apps.html#writers-wellspring" class="btn-apple">See the app</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Writing -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 reveal">
+          <span class="eyebrow">The Writing</span>
+          <h2 class="section-headline mb-5">Fiction, nonfiction,<br>and one AI experiment.</h2>
+
+          <p class="body-large mb-5">The books started the same way as the apps — with something that didn't exist yet and should.</p>
+
+          <div class="about-book-item mb-5">
+            <h3 class="about-book-title">Adventures of Tumbleton T.</h3>
+            <p class="about-book-series">Mystery Series · Tweens</p>
+            <p>A Sherlock Holmes-style mystery series where every character is an endangered species. Tumbleton T. is a dapper white rhino in a three-piece suit. Pete is his razor-sharp French Bulldog partner. Together they take on cases that are always bigger than they first appear. <em>The Case of the Missing Grizzly</em> is Book One.</p>
+            <a href="books.html" class="btn-apple">See the book</a>
+          </div>
+
+          <div class="about-book-item mb-5">
+            <h3 class="about-book-title">Dinosaur</h3>
+            <p class="about-book-series">Short Fiction</p>
+            <p>A short story told from the inside — literally. The world as seen through the eyes of a dinosaur: ancient, enormous, and quietly attentive to a landscape built for creatures far smaller and faster. A meditation on scale and what perspective actually means.</p>
+            <a href="https://www.amazon.com/dp/B0DPL737ZB" class="btn-apple" target="_blank" rel="noopener">Buy on Amazon</a>
+          </div>
+
+          <div class="about-book-item mb-5">
+            <h3 class="about-book-title">Dark Times In Limbo</h3>
+            <p class="about-book-series">Dark Fiction · Work in Progress</p>
+            <p>Stephen King tension, Gilligan protagonist. A lovably hapless character gets stuck in a situation that keeps getting stranger and more inescapable — the kind of story where the dread is real but so is the dark humor, and you root for the hero precisely because everything is stacked against them.</p>
+          </div>
+
+          <div class="about-book-item">
+            <h3 class="about-book-title">Technologists Never Retire, They Just Reboot</h3>
+            <p class="about-book-series">Nonfiction · AI-Generated</p>
+            <p>What does a lifelong technologist do when the career ends but the curiosity doesn't? This one started as an experiment — the entire book was written by AI — and turned into something genuinely useful: a map of the tools, communities, and disciplines that keep a retired technologist sharp, relevant, and off the bleeding edge of the budget. The meta-irony of an AI writing a book about staying current with AI was not lost on anyone.</p>
+            <a href="https://www.amazon.com/dp/B0DPNFLWKR" class="btn-apple" target="_blank" rel="noopener">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-alt">
+    <div class="container text-center reveal">
+      <span class="eyebrow">Get in touch</span>
+      <h2 class="section-headline mb-4">Want to talk shop, press, or books?</h2>
+      <a href="contact.html" class="btn-pill">Contact me</a>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="footer-apple">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h2 class="footer-heading">Apps</h2>
+          <ul class="footer-links">
+            <li><a href="apps.html#manuscan">Manuscan</a></li>
+            <li><a href="apps.html#ragion">Ragion</a></li>
+            <li><a href="apps.html#ingredient-getter">Ingredient Getter</a></li>
+            <li><a href="apps.html#writers-wellspring">Writers Wellspring</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2 class="footer-heading">Books</h2>
+          <ul class="footer-links">
+            <li><a href="books.html">All books</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2 class="footer-heading">Snuffy Rhino Productions</h2>
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <p class="mb-0">Copyright &copy; 2026 Snuffy Rhino Productions, LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
